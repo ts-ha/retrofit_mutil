@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/item_chassis">
+        <bitmap android:src="@drawable/mil_p01_d"/>
+    </item>
+    <item android:id="@+id/item_intake_exhaust">
+        <bitmap android:src="@drawable/mil_p02_d"/>
+    </item>
+    <item android:id="@+id/item_fuel_n_ignition">
+        <bitmap android:src="@drawable/mil_p03_d"/>
+    </item>
+    <item android:id="@+id/item_electric_control">
+        <bitmap android:src="@drawable/mil_p04_d"/>
+    </item>
+    <item android:id="@+id/item_etc_power">
+        <bitmap android:src="@drawable/mil_p05_d"/>
+    </item>
+    <item android:id="@+id/item_network">
+        <bitmap android:src="@drawable/mil_p06_d"/>
+    </item>
+    <item android:id="@+id/item_transmission">
+        <bitmap android:src="@drawable/mil_p07_d"/>
+    </item>
+    <item android:id="@+id/item_speed_control">
+        <bitmap android:src="@drawable/mil_p08_d"/>
+    </item>
+    <item android:id="@+id/item_body">
+        <bitmap android:src="@drawable/mil_p09_d"/>
+    </item>
+
+</layer-list>

@@ -1,0 +1,75 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--
+         Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html
+    -->
+    <dimen name="navigation_drawer_width">240dp</dimen>
+
+    <dimen name="button_bar_height">48dp</dimen>
+
+    <!-- Floating head -->
+    <dimen name="floating_head_width">78dp</dimen>
+    <dimen name="floating_head_height">78dp</dimen>
+    <dimen name="floating_head_hide_horizontal_offset">39dp</dimen>
+    <dimen name="floating_head_hide_top_offset">30dp</dimen>
+    <dimen name="floating_head_hide_bottom_offset">10dp</dimen>
+
+    <dimen name="floating_head_main_text">26sp</dimen>
+    <dimen name="floating_head_sub_text">9sp</dimen>
+    <dimen name="floating_head_normal_economy_height">16dp</dimen>
+    <dimen name="floating_head_normal_pane_height">42dp</dimen>
+    <dimen name="floating_head_normal_pane_min_height">60dp</dimen>
+    <dimen name="floating_head_normal_minus_margin">-2dp</dimen>
+
+    <dimen name="st9">9sp</dimen>
+    <dimen name="st10">10sp</dimen>
+    <dimen name="st11">11sp</dimen>
+    <dimen name="st12">12sp</dimen>
+    <dimen name="st13">13sp</dimen>
+    <dimen name="st14">14sp</dimen>
+    <dimen name="st15">15sp</dimen>
+    <dimen name="st16">16sp</dimen>
+    <dimen name="st17">17sp</dimen>
+    <dimen name="st18">18sp</dimen>
+    <dimen name="st19">19sp</dimen>
+    <dimen name="st20">20sp</dimen>
+    <dimen name="st21">21sp</dimen>
+    <dimen name="st22">22sp</dimen>
+    <dimen name="st23">23sp</dimen>
+    <dimen name="st24">24sp</dimen>
+    <dimen name="st25">25sp</dimen>
+    <dimen name="st26">26sp</dimen>
+    <dimen name="st27">27sp</dimen>
+    <dimen name="st28">28sp</dimen>
+    <dimen name="st29">29sp</dimen>
+    <dimen name="st30">30sp</dimen>
+    <dimen name="st31">31sp</dimen>
+    <dimen name="st32">32sp</dimen>
+    <dimen name="st33">33sp</dimen>
+    <dimen name="st34">34sp</dimen>
+    <dimen name="st35">35sp</dimen>
+    <dimen name="st36">36sp</dimen>
+    <dimen name="st37">37sp</dimen>
+    <dimen name="st38">38sp</dimen>
+    <dimen name="st39">39sp</dimen>
+    <dimen name="st40">40sp</dimen>
+    <dimen name="st41">41sp</dimen>
+    <dimen name="st42">42sp</dimen>
+    <dimen name="st43">43sp</dimen>
+    <dimen name="st44">44sp</dimen>
+    <dimen name="st45">45sp</dimen>
+    <dimen name="st46">46sp</dimen>
+    <dimen name="st47">47sp</dimen>
+    <dimen name="st48">48sp</dimen>
+    <dimen name="st49">49sp</dimen>
+    <dimen name="st50">50sp</dimen>
+    <dimen name="st51">51sp</dimen>
+    <dimen name="st52">52sp</dimen>
+    <dimen name="st53">53sp</dimen>
+    <dimen name="st54">54sp</dimen>
+</resources>

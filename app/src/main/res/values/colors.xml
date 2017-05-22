@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main_bg">#282828</color>
+    <color name="menu_bg">#282828</color>
+    <!--<color name="menu_item_n">#282828</color>-->
+    <!--<color name="menu_item_p">#171717</color>-->
+    <color name="menu_item_n">#60282828</color>
+    <color name="menu_item_p">#60171717</color>
+    <color name="menu_text_n">#fcfcfc</color>
+    <color name="menu_text_p">#0eb4dd</color>
+    <color name="menu_account_bg">#171717</color>
+    <color name="top_pane_bg">#282828</color>
+    <color name="dialog_bg">#e4e4e4</color>
+    <color name="dialog_title_bg">#0eb4dd</color>
+    <color name="pick_vehicle_top_text">#fcfcfc</color>
+    <color name="pick_vehicle_maker_text">#fcfcfc</color>
+    <color name="pick_vehicle_helper_button_text_n">#b0b3b5</color>
+    <color name="pick_vehicle_helper_button_text_p">#f96a64</color>
+    <color name="consumption_index_background_enable">#2e2e2e</color>
+    <color name="consumption_index_background_disable">#2e2e2e</color>
+    <color name="consumption_index_progress_good">#0eb4dd</color>
+    <color name="consumption_index_progress_warning">#f99942</color>
+    <color name="consumption_index_text_disable">#5e5e5e</color>
+    <color name="consumption_index_text_enable">#ffffff</color>
+    <color name="consumption_index_text_zero">#e17362</color>
+    <color name="function_text">#ffffff</color>
+    <color name="function_eng_text">#757575</color>
+    <color name="main_category_text">#b0b3b5</color>
+    <color name="setting_text_n">#565656</color>
+    <color name="setting_text_p">#0eb4dd</color>
+
+    <color name="eco_gray">#5e5e5e</color>
+    <color name="eco_blue">#0eb4dd</color>
+    <color name="eco_yellow">#f8d532</color>
+    <color name="eco_orange">#f89942</color>
+    <color name="eco_red">#f16863</color>
+    <color name="eco_green">#94ca53</color>
+    <color name="eco_indigo">#4581c3</color>
+</resources>

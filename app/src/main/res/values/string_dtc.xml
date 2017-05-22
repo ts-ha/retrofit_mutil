@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dtc_group01">연료와 흡입공기 측정, 배출가스 제어 시스템 등에 문제가 발생했습니다.</string>
+    <string name="dtc_group02">연료 분사장치 및 과급 장치(터보)관련 시스템 등에 문제가 발생했습니다.</string>
+    <string name="dtc_group03">점화 제어 시스템 관련 계통의 문제 또는 실린더 내 실화가 발생했습니다.</string>
+    <string name="dtc_group04">엔진 공회전 제어 시스템 및 정속주행 장치 등의 차량속도 제어 시스템에 문제가 발생했습니다.</string>
+    <string name="dtc_group05">엔진, 변속기 등을 제어하는 컴퓨터 모듈 또는 각 모듈 간 통신에 문제가 발생했습니다.</string>
+    <string name="dtc_group06">변속기 및 클러치 등을 제어하는 구동제어 시스템에 문제가 발생했습니다.</string>
+    <string name="dtc_group07">동력전달 시스템 일부에 문제가 발생했습니다.</string>
+    <string name="dtc_group08">차량 도어, 창문, 시트, 와이퍼 및 각종 램프/버튼 등 차량 전장 시스템에 문제가 발생했습니다.</string>
+    <string name="dtc_group09">ABS, TCS, 주차 브레이크, 파워 스티어링 등 차량 새시 시스템에 문제가 발생했습니다.</string>
+    <string name="dtc_group10">차량 내 통신 네트워크 상의 데이터 송수신 문제가 발생했습니다.</string>
+    <string name="dtc_common">가까운 정비 업체를 방문하시거나 제조사의 정비 가이드를 참고하시기 바랍니다.</string>
+    <string name="dtc_emergency">차량의 %s 시스템 등에 문제가 발생했습니다.\n차량 주행이 어려울 수 있으니 가까운 정비 업체를 방문하시거나 가입 보험사에 연락하시기 바랍니다.</string>
+    <string name="dtc_none">차량의 상태가 양호합니다.</string>
+</resources>

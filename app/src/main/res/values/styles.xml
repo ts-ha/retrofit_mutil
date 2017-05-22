@@ -1,0 +1,225 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:progressBarStyle">@style/ProgressBarStyle</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="@style/AppBaseTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.Transparent" parent="@style/AppBaseTheme.NoActionBar.Transparent" />
+
+    <style name="AppTheme.OverlayActionBar" parent="@style/AppBaseTheme.OverlayActionBar" />
+
+    <style name="AppTheme.OverlayActionBar.Transparent" parent="@style/AppBaseTheme.OverlayActionBar.Transparent" />
+
+    <style name="AppTheme.OverlayActionBar.Transparent.PopupMenu" parent="@style/AppBaseTheme.OverlayActionBar.Transparent">
+        <item name="android:textAppearanceLargePopupMenu">@style/TextAppearanceLargePopupMenu</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/TextAppearanceSmallPopupMenu</item>
+    </style>
+
+    <style name="AppTheme.Transparent" parent="@style/AppTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="AppTheme.Transparent.NoDim" parent="@style/AppTheme.Transparent">
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:backgroundDimAmount">0.0</item>
+    </style>
+
+    <style name="AppTheme.Dialog" parent="@style/AppBaseTheme.Dialog">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowMinWidthMajor">60%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+    </style>
+
+    <style name="AppTheme.Dialog.Guide" parent="@style/AppBaseTheme.Dialog">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowMinWidthMajor">95%</item>
+        <item name="android:windowMinWidthMinor">95%</item>
+    </style>
+
+    <style name="AppTheme.Light.Dialog" parent="@style/AppBaseTheme.Light.Dialog">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowMinWidthMajor">60%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+    </style>
+
+    <style name="AppTheme.CustomDialog" parent="@style/AppTheme.Light.Dialog">
+        <item name="android:buttonBarStyle">@style/ButtonBarStyle</item>
+        <item name="android:borderlessButtonStyle">@style/BorderlessButtonStyle</item>
+    </style>
+
+    <style name="AppTheme.CustomProgressDialog" parent="@style/AppTheme.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="ButtonBarStyle" parent="@android:style/ButtonBar">
+        <item name="android:paddingTop">8dip</item>
+        <item name="android:paddingLeft">4dip</item>
+        <item name="android:paddingRight">4dip</item>
+        <item name="android:paddingBottom">0dip</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="BorderlessButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">@drawable/btn_dialog_default</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/btn_dialog_default</item>
+    </style>
+
+    <style name="ButtonBarButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">@drawable/btn_default</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/btn_default</item>
+    </style>
+
+    <style name="ProgressBarStyle" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/progress_circle</item>
+        <item name="android:minWidth">30dp</item>
+        <item name="android:minHeight">30dp</item>
+    </style>
+
+    <!-- Video Play -->
+    <style name="SpeedText">
+        <item name="android:gravity">right</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">1.2</item>
+        <item name="android:shadowDy">1.2</item>
+        <item name="android:shadowRadius">1.2</item>
+        <item name="android:textColor">#ffffbf00</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:text">--</item>
+    </style>
+
+    <style name="SpeedUnitText">
+        <item name="android:gravity">left</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">1.2</item>
+        <item name="android:shadowDy">1.2</item>
+        <item name="android:shadowRadius">1.2</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:text">km/h</item>
+    </style>
+
+    <style name="PickVehicleHelperDialog" parent="@style/AppTheme.Dialog">
+        <item name="android:windowAnimationStyle">@style/PickVehicleHelperDialogAnimation</item>
+    </style>
+
+    <style name="PickVehicleHelperDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_up</item>
+    </style>
+
+    <style name="DiagnosticsIconText">
+        <item name="android:textColor">#666666</item>
+        <!-- <item name="android:textAppearance">?android:attr/textAppearanceSmall</item> -->
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginTop">4dp</item>
+    </style>
+
+    <style name="TextAppearanceSmallPopupMenu" parent="android:TextAppearance.Holo.Widget.PopupMenu.Small">
+        <item name="android:textColor">@color/spinner_text_color</item>
+    </style>
+
+    <style name="TextAppearanceLargePopupMenu" parent="android:TextAppearance.Holo.Widget.PopupMenu.Large">
+        <item name="android:textColor">#666666</item>
+        <!-- <item name="android:textSize">8sp</item> -->
+    </style>
+
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">#666666</item>
+    </style>
+
+
+    <!-- inno car -->
+    <style name="InnoCar" />
+
+    <style name="InnoCar.Button">
+        <item name="android:background">@drawable/btn_blue_default</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/btn_blue_default</item>
+    </style>
+
+    <style name="InnoCar.Button_Predict">
+        <item name="android:background">@drawable/btn_perdict</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/btn_blue_default</item>
+    </style>
+
+    <style name="InnoCar.Floating" />
+
+    <style name="InnoCar.Floating.MusicWidget">
+        <item name="android:background">#26000000</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="InnoCar.Floating.MusicWidget.Port" parent="InnoCar.Floating.MusicWidget">
+        <item name="android:gravity">bottom|center_horizontal</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+
+    <style name="InnoCar.Floating.MusicWidget.Land">
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">12dp</item>
+    </style>
+
+    <style name="InnoCar.Floating.Link">
+        <item name="android:background">#f6f7f8</item>
+        <item name="android:gravity">bottom|center_horizontal</item>
+        <item name="android:paddingTop">32dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textColor">#4d4e4e</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="InnoCar.Floating.Link.Port" parent="InnoCar.Floating.Link"></style>
+
+    <style name="InnoCar.Floating.Link.Port.Small" parent="InnoCar.Floating.Link.Port">
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+
+    <style name="InnoCar.Floating.Link.Land" parent="InnoCar.Floating.Link">
+        <item name="android:paddingTop">28dp</item>
+    </style>
+
+    <style name="InnoCar.Floating.Link.Land.Small" parent="InnoCar.Floating.Link.Land">
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+
+    <style name="InnoCar.CustomDialog" parent="@style/AppTheme.Light.Dialog">
+        <item name="android:buttonBarStyle">@style/ButtonBarStyle</item>
+        <item name="android:borderlessButtonStyle">@style/InnoCar.BorderlessButtonStyle</item>
+    </style>
+
+    <style name="InnoCar.BorderlessButtonStyle" parent="BorderlessButtonStyle">
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">@drawable/btn_blue_default</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+</resources>

@@ -1,0 +1,58 @@
+<resources>
+
+  <!-- Default screen margins, per the Android Design guidelines. -->
+  <dimen name="activity_horizontal_margin">16dp</dimen>
+  <dimen name="activity_vertical_margin">16dp</dimen>
+
+  <!--
+         Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html
+    -->
+  <dimen name="navigation_drawer_width">360dp</dimen>
+
+  <dimen name="button_bar_height">88dp</dimen>
+
+  <!-- Floating head -->
+  <dimen name="floating_head_width">78dp</dimen>
+  <dimen name="floating_head_height">78dp</dimen>
+  <dimen name="floating_head_hide_horizontal_offset">39dp</dimen>
+  <dimen name="floating_head_hide_top_offset">30dp</dimen>
+  <dimen name="floating_head_hide_bottom_offset">10dp</dimen>
+
+  <dimen name="st10">20sp</dimen>
+  <dimen name="st11">22sp</dimen>
+  <dimen name="st12">24sp</dimen>
+  <dimen name="st13">26sp</dimen>
+  <dimen name="st14">28sp</dimen>
+  <dimen name="st15">30sp</dimen>
+  <dimen name="st16">32sp</dimen>
+  <dimen name="st17">34sp</dimen>
+  <dimen name="st18">36sp</dimen>
+  <dimen name="st19">38sp</dimen>
+  <dimen name="st20">40sp</dimen>
+  <dimen name="st21">42sp</dimen>
+  <dimen name="st22">44sp</dimen>
+  <dimen name="st23">46sp</dimen>
+  <dimen name="st24">48sp</dimen>
+  <dimen name="st25">50sp</dimen>
+  <dimen name="st26">52sp</dimen>
+  <dimen name="st27">54sp</dimen>
+  <dimen name="st28">56sp</dimen>
+  <dimen name="st29">58sp</dimen>
+  <dimen name="st30">60sp</dimen>
+  <dimen name="st31">62sp</dimen>
+  <dimen name="st32">64sp</dimen>
+  <dimen name="st33">66sp</dimen>
+  <dimen name="st34">68sp</dimen>
+  <dimen name="st35">70sp</dimen>
+  <dimen name="st36">72sp</dimen>
+  <dimen name="st37">74sp</dimen>
+  <dimen name="st38">76sp</dimen>
+  <dimen name="st39">78sp</dimen>
+  <dimen name="st40">80sp</dimen>
+  <dimen name="st41">82sp</dimen>
+  <dimen name="st42">84sp</dimen>
+  <dimen name="st43">86sp</dimen>
+  <dimen name="st44">88sp</dimen>
+
+</resources>

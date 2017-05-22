@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Fuel Types -->
+    <string-array name="fuel_type_entries">
+        <item>@string/fuel_gasoline</item>
+        <item>@string/fuel_diesel</item>
+        <item>@string/fuel_lpg</item>
+    </string-array>
+    <string-array name="fuel_type_values">
+        <item>GASOLINE</item>
+        <item>DIESEL</item>
+        <item>LPG</item>
+    </string-array>
+    <string name="fuel_type_default">GASOLINE</string>
+
+    <!-- Engine Displacement -->
+    <string name="engine_displacement_default">1600</string>
+
+    <!-- Odometer -->
+    <string name="odometer_default">0</string>
+
+    <!-- Distance Unit -->
+    <string-array name="distance_unit_entries">
+        <item>@string/distance_unit_km</item>
+        <item>@string/distance_unit_mi</item>
+    </string-array>
+    <string-array name="distance_unit_values">
+        <item>KM</item>
+        <item>MI</item>
+    </string-array>
+    <string name="distance_unit_default">KM</string>
+
+    <!-- Speed Unit -->
+    <string-array name="speed_unit_entries">
+        <item>@string/speed_unit_kph</item>
+        <item>@string/speed_unit_mph</item>
+    </string-array>
+    <string-array name="speed_unit_values">
+        <item>KPH</item>
+        <item>MPH</item>
+    </string-array>
+    <string name="speed_unit_default">KPH</string>
+
+    <!-- Volume Unit -->
+    <string-array name="volume_unit_entries">
+        <item>@string/volume_unit_l</item>
+        <item>@string/volume_unit_gal_us</item>
+        <item>@string/volume_unit_gal_uk</item>
+    </string-array>
+    <string-array name="volume_unit_values">
+        <item>L</item>
+        <item>GAL_US</item>
+        <item>GAL_UK</item>
+    </string-array>
+    <string name="volume_unit_default">L</string>
+
+    <!-- Fuel Economy Unit -->
+    <string-array name="fuel_economy_unit_entries">
+        <item>@string/fuel_economy_unit_kpl</item>
+        <item>@string/fuel_economy_unit_lp100km</item>
+        <item>@string/fuel_economy_unit_mpg_us</item>
+        <item>@string/fuel_economy_unit_mpg_uk</item>
+    </string-array>
+    <string-array name="fuel_economy_unit_values">
+        <item>KPL</item>
+        <item>LP100KM</item>
+        <item>MPG_US</item>
+        <item>MPG_UK</item>
+    </string-array>
+    <string name="fuel_economy_unit_default">KPL</string>
+
+    <!-- Temperature Unit -->
+    <string-array name="temperature_unit_entries">
+        <item>@string/temperature_unit_c</item>
+        <item>@string/temperature_unit_f</item>
+    </string-array>
+    <string-array name="temperature_unit_values">
+        <item>C</item>
+        <item>F</item>
+    </string-array>
+    <string name="temperature_unit_default">C</string>
+
+    <!-- Weight Unit -->
+    <string-array name="weight_unit_entries">
+        <item>@string/weight_unit_kg</item>
+        <item>@string/weight_unit_lb</item>
+    </string-array>
+    <string-array name="weight_unit_values">
+        <item>KG</item>
+        <item>LB</item>
+    </string-array>
+    <string name="weight_unit_default">KG</string>
+
+    <!-- ERS enabled -->
+    <string name="ers_enabled_default">true</string>
+
+    <!-- ERS target -->
+    <string-array name="ers_target_entries">
+        <item>@string/ers_target_none</item>
+        <item>@string/ers_target_call</item>
+        <item>@string/ers_target_sms</item>
+    </string-array>
+    <string-array name="ers_target_values">
+        <item>NONE</item>
+        <item>CALL</item>
+        <item>SMS</item>
+    </string-array>
+    <string name="ers_target_default">NONE</string>
+
+</resources>

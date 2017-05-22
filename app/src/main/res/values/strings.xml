@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">Inno Car</string>
+    <!-- Actions -->
+    <string name="action_discovery">검색</string>
+    <string name="action_edit">수정</string>
+    <string name="action_log_report">로그리포트</string>
+    <!-- Buttons -->
+    <string name="btn_ok">확인</string>
+    <string name="btn_perdict">상세보기</string>
+    <string name="btn_cancel">취소</string>
+    <string name="btn_yes">예</string>
+    <string name="btn_no">아니오</string>
+    <string name="btn_start">시작하기</string>
+    <string name="btn_previous">이전</string>
+    <string name="btn_next">다음</string>
+    <string name="btn_google_auth">Google 계정으로 인증</string>
+    <string name="btn_facebook_auth">Facebook 계정으로 인증</string>
+    <string name="btn_connect">연결</string>
+    <string name="btn_later">나중에</string>
+    <string name="btn_done">완료</string>
+    <string name="btn_register_vehicle">차량등록</string>
+    <string name="btn_seutp_obd">진단장치(OBD) 설정</string>
+    <string name="btn_save">저장</string>
+    <string name="btn_register">등록</string>
+    <string name="btn_exit">종료</string>
+    <string name="btn_ers_call">전화</string>
+    <string name="btn_ers_sms">문자메시지</string>
+    <string name="btn_start_service">서비스를 시작합니다</string>
+    <!-- Dialog -->
+    <string name="dialog_title_network_error">네트웍 오류</string>
+    <string name="dialog_message_network_error">서버에 연결할 수 없습니다\n\n다시 시도하시겠습니까?</string>
+    <string name="dialog_title_server_error">서버 오류</string>
+    <string name="dialog_message_server_error">서버에서 오류가 발생 했습니다\n\n다시 시도하시겠습니까?</string>
+    <string name="dialog_message_cannot_sign_in">서버에 로그인 할 수 없습니다\n\n다시 시도 하시겠습니까?</string>
+    <string name="dialog_message_cannot_sign_in_google">구글 인증에 실패하였습니다\n\n다시 시도 하시겠습니까?</string>
+    <string name="dialog_message_cannot_sign_in_facebook">페이스북 인증에 실패하였습니다\n\n다시 시도 하시겠습니까?</string>
+    <string name="dialog_message_turning_bluetooth_on">블루투스를 켜고 있습니다\n\n잠시만 기다려 주세요\u2026</string>
+    <string name="dialog_message_connecting_obd_device">진단장치를 연결하는 중입니다\n\n잠시만 기다려 주세요\u2026</string>
+    <string name="dialog_message_cannot_connect_obd_device">진단장치를 연결할 수 없습니다.\n\n먼저 시동을 걸고 연결하세요.\n\n다시 시도하시겠습니까?</string>
+    <string name="dialog_message_not_supported_obd_protocol">지원하지않는 프로토콜입니다</string>
+    <string name="dialog_message_insufficient_pid">먼저 시동을 걸고 연결하세요.\n\n계속 문제가 발생하면 관리자에게 문의하세요.
+  </string>
+    <string name="dialog_title_edit_vehicle">차량수정</string>
+    <string name="dialog_message_edit_vehicle">등록된 차량의 정보를 수정하실 경우 기존 정보는 삭제됩니다\n\n수정 하시겠습니까?</string>
+    <string name="dialog_title_input_odometer">차량번호 및 총주행거리(ODO)</string>
+    <string name="dialog_message_input_plate_no">차량번호를 입력해 주세요</string>
+    <string name="dialog_message_input_odometer">총주행거리(ODO)를 입력해 주세요</string>
+    <string name="dialog_message_loading_account">서버로 부터 등록된 회원정보를 읽고 있습니다\n\n잠시만 기다려 주세요\u2026
+  </string>
+    <string name="dialog_message_loading_vehicle">서버로 부터 등록된 차량정보를 읽고 있습니다\n\n잠시만 기다려 주세요\u2026
+  </string>
+    <string name="dialog_message_loading_vehicle_maker">서버로 부터 제조사 리스트를 읽고 있습니다\n\n잠시만 기다려 주세요\u2026
+  </string>
+    <string name="dialog_message_loading_vehicle_model">서버로 부터 모델 리스트를 읽고 있습니다\n\n잠시만 기다려 주세요\u2026
+  </string>
+    <string name="dialog_message_loading_vehicle_fuel">서버로 부터 유종 리스트를 읽고 있습니다\n\n잠시만 기다려 주세요\u2026
+  </string>
+    <string name="dialog_message_loading_vehicle_displacement">서버로 부터 배기량 리스트를 읽고 있습니다\n\n잠시만 기다려
+    주세요\u2026
+  </string>
+    <string name="dialog_message_loading_region">서버로 부터 지역 리스트를 읽고 있습니다\n\n잠시만 기다려 주세요\u2026</string>
+    <string name="dialog_message_connect_obd_device">%s 장치를 연결하시겠습니까?</string>
+    <string name="dialog_title_discoverying_obd_device">진단장치(OBD) 검색</string>
+    <string name="dialog_message_discovering_obd_device">진단장치를 검색 중입니다</string>
+    <string name="dialog_message_discovering_obd_device_desc">검색되는 장치 이름에 \'OBD\'가 포함된 장치를 선택하세요
+  </string>
+    <string name="dialog_message_signing_up">회원을 등록 중입니다\n\n잠시만 기다려 주세요\u2026</string>
+    <string name="dialog_message_updating_account">회원정보를 저장 중입니다\n\n잠시만 기다려 주세요\u2026</string>
+    <string name="dialog_message_registering_vehicle">차량을 등록 중입니다\n\n잠시만 기다려 주세요\u2026</string>
+    <string name="dialog_message_updating_vehicle">차량정보를 저장 중입니다\n\n잠시만 기다려 주세요\u2026</string>
+    <string name="dialog_message_updating_odometer">총주행거리(ODO)를 업데이트 중입니다\u2026</string>
+    <string name="dialog_message_wait_for">잠시만 기다려 주세요\u2026</string>
+    <string name="dialog_message_loading_for">로딩 중입니다\u2026</string>
+    <string name="dialog_title_setup_finished">환경설정 완료</string>
+    <string name="dialog_message_setup_finished">환경설정이 완료되었습니다\n\n수고하셨습니다!</string>
+    <string name="dialog_title_need_register_vehicle">차량등록 안내</string>
+    <string name="dialog_message_need_register_vehicle">등록된 차량이 없습니다\n\n지금 등록하시겠습니까?</string>
+    <string name="dialog_title_need_register_obd">진단장치(OBD) 안내</string>
+    <string name="dialog_message_need_register_obd">진단장치(OBD)가 설정되지 않았습니다\n\n지금 설정하시겠습니까?</string>
+    <string name="dialog_title_vehicle_setup">차량설정</string>
+    <string name="dialog_message_vehicle_setup_successfully">차량 설정이 완료되었습니다</string>
+    <string name="dialog_title_driving_exit">주행종료</string>
+    <string name="dialog_message_driving_exit">%d초 후에 앱을 종료합니다</string>
+    <string name="dialog_title_driving_off">주행종료</string>
+    <string name="dialog_message_driving_off">시동이 꺼졌습니다\n\n%d초 후에 종료합니다</string>
+    <string name="dialog_title_ers">긴급 호출</string>
+    <string name="dialog_mesage_ers">%d초 후 자동으로 닫힙니다</string>
+    <string name="dialog_title_auto_connect">차량 스캔</string>
+    <string name="dialog_message_auto_connect_diagnostics">차량을 진단하고 있습니다\u2026</string>
+    <string name="dialog_message_auto_connect_mil_off">차량에 이상이 없습니다</string>
+    <string name="dialog_message_auto_connect_mil_on">차량에 이상을 발견했습니다</string>
+    <string name="dialog_title_notice_mil">이상 알림</string>
+
+    <string name="dialog_message_notice_mil_message">상세진단을 통해 이상부위를 확인하세요</string>
+    <string name="dialog_title_consumables_guide">소모품 관리 안내</string>
+    <string name="dialog_consumables_guide_title_1">1. 점검, 정비의 중요성</string>
+    <string name="dialog_consumables_guide_content_1">안전하고 쾌적한 운행을 위해서는 일상점검, 정기점검이 중요하며, 차량을 최적의 상태로
+    유지하기 위한 소모품 관리도 필수입니다
+  </string>
+    <string name="dialog_consumables_guide_title_2">2.스마트한 소모품 관리</string>
+    <string name="dialog_consumables_guide_content_2">주행거리와 경과시간을 기준으로 하는 통상적인 방법에 차량정보, 운전스타일 분석이 더해진
+    스마트한 소모품 관리 기능을 제공합니다
+  </string>
+    <string name="dialog_consumables_guide_warning">* 차량 제조사에서 제공하는 취급설명서에 표기된 규정과 규격에 맞는부품 사용을
+    권장합니다
+  </string>
+    <string name="dialog_dont_show_again">다시 보지 않기</string>
+    <string name="dialog_title_consumables">점검 교체 주기 설정</string>
+    <string name="dialog_message_input_distance">최종 교체 거리(ODO)를 입력하세요</string>
+    <string name="dialog_message_input_months">최종 교체 시기</string>
+    <string name="dialog_consumables_now">[지금 점검 교체]</string>
+    <string name="dialog_consumables_recent">[한달 내에 점검 교체 함]</string>
+    <string name="dialog_consumables_last">최종 교체 거리</string>
+    <string name="dialog_consumables_message_last">[이전 점검/교체가 없을시 0 입력]</string>
+    <string name="dialog_consumalbes_unit">km</string>
+    <string name="dialog_consumables_before_month">개월 전</string>
+    <string name="dialog_consumables_message_disabled">\u0020관리를 종료하시겠습니까?</string>
+    <string name="dialog_consumables_message_start">\u0020관리를 시작합니다</string>
+    <string name="dialog_consumables_message_termination">\u0020관리를 종료합니다</string>
+    <string name="dialog_consumables_message_now">(을)를 지금 점검 및 교체 하셨습니까?</string>
+    <string name="dialog_consumables_message_recent">(을)를 최근 점검 및 교체 하셨습니까?</string>
+    <string name="dialog_consumbales_message_updating">업데이트 중입니다\u2026</string>
+    <string name="dialog_title_vehicle_diary_guide">차계부 안내</string>
+    <string name="dialog_vehicle_diary_guide_title_1">1. 이노카 차계부</string>
+    <string name="dialog_vehicle_diary_guide_content_1">이노카 차계부는 카드결제 SMS를 통해 주유내역과 정비기록 등을 손쉽게 입력하여
+    유지비 및 차량관리를 편리하게 해주는 기능입니다
+  </string>
+
+
+    <string name="dialog_group_error">등록된 그룹코드가 아닙니다.\n회원 가입은 innocar@kt.com 으로 문의 주시면 감사하겠습니다.</string>
+
+    <string name="dialog_vehicle_diary_guide_title_2">1. 자동 입력</string>
+    <string name="dialog_vehicle_diary_guide_content_2_1">주유 관련 카드결제 SMS를 수신할 경우 지출 내역을 자동으로 기록합니다
+  </string>
+    <string name="dialog_vehicle_diary_guide_content_2_2">정비 관련 카드결제 SMS를 수신할 경우 지출 내역을 자동으로 기록합니다
+  </string>
+    <string name="dialog_vehicle_diary_guide_content_2_3">단, 사용처가 주요 브랜드 정비소(스피드메이트, 오토큐 등)가 아닌경우 기록이
+    누락될 수 있습니다
+  </string>
+    <string name="dialog_vehicle_diary_guide_title_3">2. 직접 입력</string>
+    <string name="dialog_vehicle_diary_guide_content_3">카드결제 SMS를 수신하지 않는 경우 내역을 직접 입력할 수 있습니다
+  </string>
+    <string name="dialog_vehicle_diary_guide_warning">* 자동 기록 또는 수동 입력 시 오기가 발생했을 경우 직접 수정할 수 있습니다
+  </string>
+    <string name="dialog_bluetooth_not_response">블루투스가 응답하지 않습니다</string>
+    <string name="dialog_reset_bluetooth">블루투스를 리셋하시겠습니까?\n다른 블루투스 장치의 연결이 끊어집니다.\n\n%1$d초 후에 자동으로
+    리셋됩니다.
+  </string>
+    <string name="dialog_title_obd_malfunction">OBD 장치가 응답하지 않습니다</string>
+    <string name="dialog_message_obd_malfunction">OBD 장치를 제거 한 후에 다시 설치해 주세요.\n\n이용에 불편을 드려 죄송합니다.
+  </string>
+
+    <!-- Intro -->
+    <string name="intro_company">© kt corp</string>
+    <string name="intro_service_description">\'이노카\' 앱 은 범용 진단장치(OBD)와 스마트폰을 활용하여 차량편의 서비스를 제공합니다\n운전
+    후 다양한 통계정보를 확인할 수 있습니다
+  </string>
+    <string name="intro_fee_warning">3G/4G망으로 이용 시 요금제에 따라 데이터 통화료가 발생할 수 있습니다</string>
+    <!-- Disclaimer -->
+    <string name="disclaimer_agree">개인정보 취급방침 동의(필수)</string>
+    <string name="individual_info_agree">개인정보 수집 및 이용 동의(필수)</string>
+    <string name="location_based_service_agree">위치기반서비스 이용약관 동의(필수)</string>
+    <!-- Sign-in -->
+    <string name="sign_in_google_play_services_error">Google Play 서비스를 사용할 수 없습니다</string>
+
+    <string name="sign_in_process_sign_in">로그인 중입니다\u2026</string>
+    <string name="sign_in_process_auth">회원 인증 중입니다\u2026</string>
+    <!-- Sign-out -->
+    <string name="sign_out_process_sign_out">로그아웃 중입니다\u2026</string>
+    <!-- Sign-up -->
+    <string name="sign_up_nick_name">닉네임</string>
+    <string name="sign_up_nick_name_desc">내 프로필 이름입니다</string>
+    <string name="sign_up_birthday">출생년도</string>
+    <string name="sign_up_birthday_desc_old">본인 연령대 통계정보를 제공합니다</string>
+    <string name="sign_up_region">지역</string>
+    <string name="sign_up_region_desc_old">소속된 지역별 통계정보를 제공합니다</string>
+    <string name="sign_up_sex">성별</string>
+    <string name="sign_up_sex_desc_old">성별 통계정보를 제공합니다</string>
+    <string name="sign_up_ho_no">전화번호</string>
+    <string name="sign_up_ho_no_desc">비상상황 발생시 수신받을 연락처입니다</string>
+    <string name="sign_up_email">정보 수신 메일</string>
+    <string name="sign_up_email_desc_old">본 메일을 통해 다양한 통계정보를 정기적으로 제공합니다</string>
+    <string name="sign_up_please_input">입력해 주세요</string>
+    <string name="sign_up_please_select">선택해 주세요</string>
+    <string name="sign_up_male">남성</string>
+    <string name="sign_up_female">여성</string>
+    <string name="sign_up_cannot_connect_server">서버와 안정적으로 연결할 수 없습니다</string>
+    <string name="sign_up_process_auth">인증 중입니다\u2026</string>
+    <string name="sign_up_account_info">회원정보</string>
+    <string name="sign_up_input_nick_name">닉네임을 입력해 주세요</string>
+    <string name="sign_up_pick_birthday">출생년도를 선택해 주세요</string>
+    <string name="sign_up_pick_region">지역을 선택해 주세요</string>
+    <string name="sign_up_pick_sex">성별을 선택해 주세요</string>
+    <string name="sign_up_input_hp_no">전화번호를 입력해 주세요</string>
+    <string name="sign_up_input_email_no">이메일을 입력해 주세요</string>
+    <string name="sign_up_year">년</string>
+    <string name="sign_up_withdrawal">서비스 탈퇴</string>
+    <string name="sign_up_widthdrawal_agree">모든 정보를 삭제합니다</string>
+    <string name="sign_up_select_auth_target">회원 인증 방식을 선택해 주세요</string>
+    <string name="sign_up_mandatory">필수입력</string>
+    <string name="sign_up_option">선택입력</string>
+    <string name="sign_up_mandatory_guide">선택사항 설정시 최적화되고 맞춤화된 서비스 제공이 되며, 정보수신 메일로 주행 통계를 확인할 수
+    있습니다
+  </string>
+    <!-- Withdraw -->
+    <string name="withdraw_failed_to_withdraw">회원 탈퇴를 할 수 없습니다\n잠시 후 다시 시도해 주세요</string>
+    <string name="withdraw_goodbye">이용해 주셔서 감사합니다</string>
+    <!-- Vehicle setting -->
+    <string name="vehicle_setting_vehicle_info">차량정보</string>
+    <string name="vehicle_setting_maker">Maker</string>
+    <string name="vehicle_setting_pick_maker">제조사를 선택해 주세요</string>
+    <string name="vehicle_setting_prod_year">Year</string>
+    <string name="vehicle_setting_pick_prod_year">차량 출시 년도를 선택해 주세요</string>
+    <string name="vehicle_setting_prod_year_postfix">년</string>
+    <string name="vehicle_setting_model">Model</string>
+    <string name="vehicle_setting_pick_model">모델을 선택해 주세요</string>
+    <string name="vehicle_setting_fuel_type">Type</string>
+    <string name="vehicle_setting_pick_fuel_type">유종을 선택해 주세요</string>
+    <string name="vehicle_setting_isg">ISG</string>
+    <string name="vehicle_setting_pick_isg">ISG 사용여부를 선택해 주세요</string>
+    <string name="vehicle_setting_isg_enable">사용</string>
+    <string name="vehicle_setting_isg_disable">사용안함</string>
+    <string name="vehicle_setting_displacement">CC</string>
+    <string name="vehicle_setting_pick_displacement">배기량을 선택해 주세요</string>
+    <string name="vehicle_setting_pick_obd_device">스마트진단기(OBD)</string>
+    <string name="vehicle_setting_empty_obd_device">스마트진단기가 없습니다\n\n스마트진단기를 설치한 후에 검색 버튼을 눌러 주세요
+  </string>
+    <string name="vehicle_setting_obd_connection">스마트진단기(OBD) 연결</string>
+    <string name="vehicle_setting_obd_step0">블루투스를 리셋 중입니다</string>
+    <string name="vehicle_setting_obd_step1">스마트진단기를 연결 중입니다</string>
+    <string name="vehicle_setting_obd_step2">스마트진단기와 연결 되었습니다</string>
+    <string name="vehicle_setting_obd_step3">스마트진단기를 초기화 중입니다</string>
+    <string name="vehicle_setting_obd_step3_comment">연결 시 꼭 확인해주세요!\n
+    차량 시동을 켠 이후 연결 시도\n
+    스마트진단기 램프 불 점등 확인
+  </string>
+    <string name="vehicle_setting_obd_step4">스마트진단기가 초기화 되었습니다</string>
+    <string name="vehicle_setting_obd_step5">차량 데이터를 읽고 있습니다</string>
+    <string name="vehicle_setting_obd_step6">스마트진단기 설정이 완료되었습니다</string>
+    <string name="vehicle_setting_obd_guide_title">스마트진단기(OBD) 설치 안내</string>
+    <string name="vehicle_setting_obd_guide_1">1. 구매정보</string>
+    <string name="vehicle_setting_obd_guide_1_desc">온라인 쇼핑몰 또는 올레샵에서 이노카를 검색하세요</string>
+    <string name="vehicle_setting_obd_guide_2">2. 차량 OBD 단자 위치</string>
+    <string name="vehicle_setting_obd_guide_2_desc">일반적으로 운전석 핸들 왼쪽 하단 실내 퓨즈박스 내부나 브레이크 패달 위쪽 부분에 OBD
+    단자가 존재합니다
+  </string>
+    <string name="vehicle_setting_obd_guide_3">3. 장착방법</string>
+    <string name="vehicle_setting_obd_guide_3_desc">아래 URL을 눌러 영상을 참고하세요.\n(퓨즈박스 덮개가 닫히지 않을 때 방법 포함)
+  </string>
+    <string name="vehicle_setting_obd_guide_4_desc">URL :
+    http://www.innocar.co.kr/web/assets/mov/atype.mp4
+  </string>
+    <string name="vehicle_setting_obd_guide_what">OBD란?\nOn Board Diagnostics의 약자로 자동차의 배출가스 관련 부품,
+    엔진상태, 산소센서, 연료 공급 시스템을 감지하여 이들의 작동여부와 고장 및 오작동 여부를 점검할 수 있습니다
+  </string>
+    <!-- Welcome -->
+    <string name="welcome_sign_up_completed">회원등록 완료</string>
+    <string name="welcome_message">감사합니다\nKT 이노카 서비스 회원 가입이 완료되었습니다\n서비스 이용을 위해 차량을 등록해 주세요</string>
+    <string name="welcome_vehicle_setting_guide_title">차량등록 안내</string>
+    <string name="welcome_vehicle_setting_guide_1">스마트진단기(OBD)를 설치해 주세요</string>
+    <string name="welcome_vehicle_setting_guide_2">시동을 걸어주세요</string>
+    <string name="welcome_vehicle_setting_guide_3">\'차량등록\' 버튼을 눌러 주세요</string>
+    <!-- Settings -->
+    <string name="settings_vehicle_setting">차량설정</string>
+    <string name="settings_general_setting">일반설정</string>
+    <string name="settings_oil_setting">유가설정</string>
+    <!-- General setting -->
+    <string name="general_setting_ers">긴급 호출</string>
+    <string name="general_setting_ers_what">긴급 호출?</string>
+    <string name="general_setting_ers_what_content">운전 중 사고 및 긴급상황 발생시 등록한 비상연락망으로 전화 호출 또는 문자 메시지를
+    발송합니다\n연락처와 호출방식을 선택해주세요
+  </string>
+    <string name="general_setting_ers_summary">연락처를 설정해 주세요</string>
+    <string name="general_setting_ers_call_summary">전화 : %1$s (%2$s)</string>
+    <string name="general_setting_ers_sms_summary">문자 : %1$s (%2$s)</string>
+    <string name="general_setting_ers_target">선택</string>
+    <string name="general_setting_ers_contact">연락처</string>
+    <string name="general_setting_ers_insurance">보험사</string>
+    <string name="general_setting_ers_message">메시지</string>
+    <string name="general_setting_ers_name_hint">이름을 입력하세요</string>
+    <string name="general_setting_ers_phone_number_hint">전화번호를 입력하세요</string>
+    <string name="general_setting_ers_message_hint">운전 중 긴급상황이 발생하였습니다</string>
+    <string name="general_setting_overspeed_threshold">과속경고 속도</string>
+    <string name="general_setting_overspeed_alarm_enabled">경고 알림음</string>
+    <string name="general_setting_auto_connect_enabled">자동접속</string>
+    <string name="general_setting_location_enabled">운행경로 제공</string>
+    <string name="general_setting_location_enabled_summary_on">지도상에 경로 및 중요 이벤트를 표시합니다</string>
+    <string name="general_setting_location_enabled_summary_off">지도에 경로 및 중요 이벤트를 표시하지 않습니다</string>
+    <!-- Pick image -->
+    <string name="pick_image_title">사진선택</string>
+    <string name="pick_image_camera">카메라</string>
+    <string name="pick_image_gallery">사진앨범</string>
+    <!-- Navigation drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_account_info">회원정보</string>
+    <string name="navigation_drawer_vehicle_info">차량정보</string>
+    <string name="navigation_drawer_obd_setting">스마트진단기</string>
+    <string name="navigation_drawer_general_setting">설정</string>
+    <string name="navigation_drawer_repair">정비소 추천</string>
+    <string name="navigation_drawer_notice">공지사항</string>
+    <string name="navigation_drawer_disclaimer">이용약관</string>
+    <string name="navigation_drawer_logout">로그아웃</string>
+    <string name="navigation_drawer_version">버전</string>
+    <!-- Main -->
+    <string name="main_press_back_more">\'뒤로\' 버튼을 한번 더 누르시면 종료됩니다</string>
+    <string name="main_failed_to_sign_out">로그아웃을 할 수 없습니다\n잠시 후 다시 시도해 주세요</string>
+    <string name="main_obd_step_connecting">연결 중</string>
+    <string name="main_obd_step_initializing">초기화 중</string>
+    <string name="main_obd_step_failed">연결 실패</string>
+
+    <string name="main_prefix_total">총 %1$s</string>
+    <string name="main_exit_dialog_title">이노카 종료</string>
+    <string name="main_exit_dialog_message">이노카 실행중 입니다. 종료하시겠습니까?</string>
+    <!-- Notifications -->
+    <string name="noti_foreground_content_title">@string/app_name</string>
+    <string name="noti_foreground_content_text">이노카가 실행 중입니다</string>
+    <string name="noti_trip_start_title">주행시작</string>
+    <string name="noti_trip_started">주행이 시작되었습니다</string>
+    <string name="noti_trip_report_driving_stopped">주행이 종료되었습니다</string>
+    <string name="noti_trip_report_title">주행기록</string>
+    <string name="noti_trip_report_summary">%1$s초 동안\n%2$s %3$s를 주행했습니다</string>
+    <string name="noti_trip_report_summary_3line">%1$s초 동안\n%2$s %3$s를\n주행했습니다</string>
+    <string name="noti_event_title">주행 이벤트</string>
+    <string name="noti_event_mil">차량이상</string>
+    <string name="noti_event_harsh_accel">급가속</string>
+    <string name="noti_event_harsh_brake">급감속</string>
+    <string name="noti_event_harsh_idling">공회전</string>
+    <string name="noti_event_harsh_overspeed">과속</string>
+    <string name="noti_event_eco_speed">경제운전</string>
+    <string name="noti_event_fuel_cut">연료절감</string>
+
+    <!-- Preferences -->
+    <string name="fuel_gasoline">가솔린</string>
+    <string name="fuel_diesel">디젤</string>
+    <string name="fuel_lpg">LPG</string>
+    <string name="distance_unit_km">km</string>
+    <string name="distance_unit_mi">mi</string>
+    <string name="speed_unit_kph">km/h</string>
+    <string name="speed_unit_mph">mph</string>
+    <string name="volume_unit_l">L</string>
+    <string name="volume_unit_gal_us">gal(US)</string>
+    <string name="volume_unit_gal_uk">gal(UK)</string>
+    <string name="fuel_economy_unit_kpl">km/L</string>
+    <string name="fuel_economy_unit_lp100km">L/100km</string>
+    <string name="fuel_economy_unit_mpg_us">mpg(US)</string>
+    <string name="fuel_economy_unit_mpg_uk">mpg(UK)</string>
+    <string name="temperature_unit_c">°C</string>
+    <string name="temperature_unit_f">°F</string>
+    <string name="weight_unit_kg">kg</string>
+    <string name="weight_unit_lb">lb</string>
+    <string name="impact_sensitivity_very_high">매우 높음</string>
+    <string name="impact_sensitivity_very_low">매우 낮음</string>
+    <string name="impact_sensitivity_high">높음</string>
+    <string name="impact_sensitivity_normal">보통</string>
+    <string name="impact_sensitivity_low">낮음</string>
+    <string name="impact_sensitivity_off">사용 안함</string>
+    <string name="ers_target_none">없음</string>
+    <string name="ers_target_call">전화</string>
+    <string name="ers_target_sms">문자메시지</string>
+    <string name="overspeed_alarm_enabled">사용</string>
+    <string name="overspeed_alarm_disabled">사용안함</string>
+    <string name="auto_connnect_enabled">사용</string>
+    <string name="auto_connnect_disabled">사용안함</string>
+    <string name="location_enabled">지도상에 경로 및 중요 이벤트를 표시합니다</string>
+    <string name="location_disabled">지도에 경로 및 중요 이벤트를 표시하지 않습니다</string>
+    <!-- driving fragment -->
+    <string name="engine_load">엔진부하량</string>
+    <string name="accel_pedal_position">가속 패달 위치</string>
+    <string name="maf">MAF</string>
+    <string name="maf_kor">흡입공기량</string>
+    <string name="short_term_trim">연료유입변화(순간)</string>
+    <string name="long_term_trim">연료유입변화(장기)</string>
+    <string name="fuel_level_input">잔여연료량</string>
+    <string name="intake_air_temp">흡기온도</string>
+    <string name="throttle_position">스로틀 위치</string>
+    <string name="fuel_system">연료시스템 상태</string>
+    <string name="fuel_pressure">연료분사 압력</string>
+    <!-- <string name="map">MAP(매니폴드 절대압력)</string> -->
+    <string name="instance_fuel_consumption">순간 연료\n소모량</string>
+    <string name="used_fuel_cost">사용 유류비</string>
+    <string name="current_oil_price">현재 유가</string>
+    <string name="won">원</string>
+    <string name="driving_pattern_time">주행 비율</string>
+    <string name="economy_speed_time">경제운전</string>
+    <string name="fuel_cut_time">퓨얼 컷</string>
+    <string name="longterm_overspeed_time">장기과속</string>
+    <string name="idling_time">공회전</string>
+    <string name="over_speed_time">과속운전</string>
+    <string name="instance_fuel_economy">순간 연비</string>
+    <string name="average_fuel_economy">평균 연비</string>
+    <string name="total_fuel_consumption">누적 연료\n소모량</string>
+    <string name="harsh_accel_count">급가속</string>
+    <string name="harsh_decel_count">급감속</string>
+    <string name="coolant_temperature">냉각수 온도</string>
+    <string name="instance_co2_emission">순간CO2배출량</string>
+    <string name="total_co2_emission">CO2 배출량</string>
+    <string name="dtc">고장코드</string>
+    <string name="mil_on">이상발생</string>
+    <string name="mil_off">이상없음</string>
+    <string name="aux_battery_voltage">배터리 전압</string>
+    <string name="count">회</string>
+    <string name="fuel_eco_ranking">연비 랭킹</string>
+    <string name="safe_driving_ranking">안전 운전 랭킹</string>
+    <string name="top_ranking">현재 1등</string>
+    <string name="smart_driving_ranking_title">종합 랭킹</string>
+    <string name="rank_class">등</string>
+    <string name="rank_score">점</string>
+    <string name="rank_insertsymbol_total_header">총</string>
+    <string name="rank_insertsymbol_total_footer">명</string>
+    <string name="gallon_per_sec">g/s</string>
+    <string name="kpa">kPa</string>
+    <string name="rank_insertsymbol_start">"("</string>
+    <string name="rank_insertsymbol_end">")"</string>
+    <string name="driving_no_value_exp">---</string>
+    <string name="driving_no_speed_exp">---</string>
+    <string name="driving_no_fuel_economy_exp">--.-</string>
+    <string name="driving_no_fuel_consumption_exp">--.-</string>
+    <string name="driving_no_fuel_cost_exp">---</string>
+    <string name="driving_no_count_exp">--</string>
+    <string name="driving_no_distance_exp">--</string>
+    <string name="driving_no_time_exp">--:--</string>
+    <string name="driving_no_percent_exp">---</string>
+    <string name="max_fuel_economy">MAX</string>
+    <string name="space"> </string>
+    <string name="percent">%</string>
+    <!-- Diagnostics fragmnent -->
+    <string name="diagnostics_title">차량진단</string>
+    <string name="diagnostics_title_eng">Diagnostics</string>
+    <string name="diagnostics_progress">진단 중 입니다</string>
+    <string name="diagnostics_group01">흡기/배기</string>
+    <string name="diagnostics_group02">연료분사</string>
+    <string name="diagnostics_group03">점화제어</string>
+    <string name="diagnostics_group04">차속제어</string>
+    <string name="diagnostics_group05">전자회로</string>
+    <string name="diagnostics_group06">변속기</string>
+    <string name="diagnostics_group07">기타동력</string>
+    <string name="diagnostics_group08">차량전장</string>
+    <string name="diagnostics_group09">차량새시</string>
+    <string name="diagnostics_group10">네트워크</string>
+    <string name="diagnostics_check_obd_connection">스마트진단기(OBD)와 연결되어 있지 않습니다</string>
+    <!-- trip monitor -->
+    <string name="trip_log_title">주행기록</string>
+    <string name="trip_log_title_eng">Driving Record</string>
+    <string name="tripmon_loading">로딩 중입니다\u2026</string>
+    <string name="tripmon_chart_period_day">일간</string>
+    <string name="tripmon_chart_period_week">주간</string>
+    <string name="tripmon_chart_period_month">월간</string>
+    <string name="tripmon_chart_statistics">주행통계</string>
+    <string name="tripmon_chart_ecopoint">에코점수</string>
+    <string name="tripmon_chart_fueleconomy">평균연비</string>
+    <string name="tripmon_chart_fuelcost">사용유류비</string>
+    <string name="tripmon_chart_drivingrate">운전비율</string>
+    <string name="tripmon_video_period_day">하루</string>
+    <string name="tripmon_video_period_week">일주일</string>
+    <string name="tripmon_video_period_month">한달</string>
+    <string name="tripmon_video_period_all">전체</string>
+    <string name="tripmon_popup_route_detail">주행경로</string>
+    <string name="tripmon_popup_route_video">주행영상</string>
+    <string name="popup_chart">주행통계</string>
+    <string name="popup_title_calendar">날짜 선택</string>
+    <string name="popup_title_chart_type">차트 선택</string>
+    <string name="notice_category_all">전체</string>
+    <string name="web_loading_error">로딩 오류</string>
+    <string name="trip_period_all">전체</string>
+    <string name="trip_period_day">오늘</string>
+    <string name="trip_period_week">7일</string>
+    <string name="trip_period_half_month">15일</string>
+    <string name="trip_period_month">30일</string>
+    <string name="trip_list">운행경로</string>
+    <string name="diagnostics_list">진단이력</string>
+    <!-- Consumable -->
+    <string name="consumables_check_invalid_vehicle">진단기 연결 후 사용해주세요.</string>
+    <string name="consumables_title">소모품 관리</string>
+    <string name="consumables_title_eng">Manage Supplies</string>
+    <string name="consumables_engine_part">엔진 계통</string>
+    <string name="consumables_engine_oil">엔진오일/오일필터</string>
+    <string name="consumables_engine_filter">엔진 에어 클리너</string>
+    <string name="consumables_brake_part">브레이크 계통</string>
+    <string name="consumables_brake_pad">브레이크 패드</string>
+    <string name="consumables_brake_oil">브레이크 액</string>
+    <string name="consumables_general_part">일반 계통</string>
+    <string name="consumables_aircon_filter">실내 공조 필터</string>
+    <string name="consumables_tires_exchange">타이어 위치 교환</string>
+    <string name="consumables_detail_period">교체 시기</string>
+    <string name="consumables_detail_btn_now">지금</string>
+    <string name="consumables_detail_btn_recent">최근(한달 내)</string>
+    <string name="consumables_detail_btn_last">직접 입력</string>
+    <string name="consumables_detail_usage">용도</string>
+    <string name="consumables_detail_engine_oil">엔진오일/필터 용도</string>
+    <string name="consumables_detail_engine_filter">엔진 에어 클리너(에어필터) 용도</string>
+    <string name="consumables_detail_brake_pad">브레이크 패드 용도</string>
+    <string name="consumables_detail_brake_oil">브레이크 액(오일) 용도</string>
+    <string name="consumables_detail_air_filter">실내 공조 필터(에어컨 필터) 용도</string>
+    <string name="consumables_detail_tires_exchange">타이어 위치 교환 용도</string>
+    <string name="consumables_detail_engine_oil_usage">엔진 윤활뿐 아니라 각 부분의 냉각·세척·방청 및 연소실에서의 가스 누출을 방지
+  </string>
+    <string name="consumables_detail_engine_filter_usage">엔진으로 흡입되는 공기의 불순물 제거하기 장치로 건식/습식 등으로 나누어 짐
+  </string>
+    <string name="consumables_detail_brake_pad_usage">브레이크 디스크와 직접 접촉하여 브레이크 디스크의 회전을 멈추게 하여 정지
+  </string>
+    <string name="consumables_detail_brake_oil_usage">브레이크 페달을 밟으면 각 바퀴에 제동력을 전달하는데 사용되는 작동액</string>
+    <string name="consumables_detail_air_filter_usage">에어컨/히터 가동시 미세먼지, 배기가스 등의 유해성분의 실내유입 방지 및 정화
+  </string>
+    <string name="consumables_detail_tires_usage">타이어의 이상마모를 예방하고 수명을 늘리기 위해 주기에 따라 위치교환</string>
+    <string name="consumables_detail_check">점검방법</string>
+    <string name="consumables_detail_engine_oil_check">오일 점검 쇠막대를 꺼내서 끝부분에 있는 적정 눈금까지 엔진오일이 있는지, 색과 점도
+    점검 후 주기에 따라 교체
+  </string>
+    <string name="consumables_detail_engine_filter_check">엔진룸 에어 클리너 커버 잠금을 해제하여 필터의 오염도를 육안으로 점검, 오염이
+    심할 시 교체
+  </string>
+    <string name="consumables_detail_brake_pad_check">주행 중 제동거리가 길어지거나, 소음이 심하게 발생, 디스크 변형이 발생할 경우 패드의
+    마모도 점검 후 교체
+  </string>
+    <string name="consumables_detail_brake_oil_check">엔진룸 브레이크액 저장용기에 액이 Max와 Min의 기준선 사이에 있는지 확인, 부족시
+    보충
+  </string>
+    <string name="consumables_detail_air_filter_check">외기순환, 에어컨/히터 가동시 악취(곰팡이냄새, 배기가스)가 날 경우,여름/겨울철에
+    주기적으로 교체
+  </string>
+    <string name="consumables_detail_tires_check">육안으로 타이어의 마모여부(트레드 확인), 편마모 발생, 운전 중 핸들쏠림, 진동, 소음
+    현상이 발생할 경우 점검
+  </string>
+    <string name="consumables_dialog_not_supported">현재 소모품 관리 기능이 지원되지 않는 차량입니다. 빠른 시일 내에 지원이 가능하도록 할
+    예정입니다.
+  </string>
+    <!-- Car Management -->
+    <string name="car_mgr_title">차계부</string>
+    <string name="car_mgr_title_eng">Car Account</string>
+
+    <string name="STT_NOISE_1">크아</string>
+    <string name="STT_NOISE_2">아아</string>
+    <string name="STT_NOISE_3">ts</string>
+    <string name="STT_NOISE_4">크크</string>
+    <string name="STT_NOISE_5">$CONTACTS</string>
+
+    <string name="key_confirm_1">확인</string>
+    <string name="key_confirm_2">읽어</string>
+    <string name="key_confirm_3">전문</string>
+    <string name="key_confirm_4">하긴</string>
+    <string name="key_confirm_5">화긴</string>
+    <string name="key_confirm_6">일거</string>
+
+    <string name="key_respond_1">답장</string>
+    <string name="key_respond_2">예</string>
+    <string name="key_respond_3">네</string>
+    <string name="key_respond_4">다짱</string>
+    <string name="key_respond_5">답짱</string>
+
+    <string name="key_cancel_1">아니</string>
+    <string name="key_cancel_2">아니오</string>
+    <string name="key_cancel_3">시러</string>
+    <string name="key_cancel_4">싫어</string>
+    <string name="key_cancel_5">실어</string>
+    <string name="key_cancel_6">취소</string>
+    <string name="key_cancel_7">치소</string>
+
+    <string name="key_send_1">보내</string>
+    <string name="key_send_2">보네</string>
+    <string name="key_send_3">보내기</string>
+    <string name="key_send_4">보네기</string>
+
+    <string name="key_resend2_1">도착</string>
+    <string name="key_resend2_2">곧</string>
+    <string name="key_resend2_3">금방</string>
+
+    <string name="key_resend1_1">운전</string>
+    <string name="key_resend1_2">웅전</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="receive_msg">님의 메시지</string>
+
+    <!-- DashboardFragment -->
+    <string name="dashboard_pick_linked_app">어플리케이션 선택</string>
+    <string name="general_setting_quick_launch_none">선택 안함</string>
+    <string name="not_register_contact">긴급 호출 설정 후 이용하여 주세요</string>
+    <string name="dashboard_dialog_ers_what">긴급호출?</string>
+    <string name="dashboard_dialog_ers_summary">운전 중 사고 및 긴급상황 발생시 등록한 비상연락망으로 전화 호출 또는 문자메시지를 발송합니다
+  </string>
+    <string name="not_linked_app">지정 된 어플리케이션이 없습니다\n길게 눌러서 어플리케이션을 선택해주세요</string>
+    <string name="etc_app_seperator">기타 설치된 앱 목록</string>
+    <string name="phone_app_title">전화</string>
+    <string name="navi_app_title">내비게이션</string>
+    <string name="music_app_title">음악</string>
+    <string name="diary_app_title">차계부</string>
+    <string name="message_app_title">메세지</string>
+    <string name="favorite_app_title">추가</string>
+    <!--<string name="favorite_app_title">기타</string>-->
+    <!-- Pick insurace -->
+    <string name="pick_insurance_title">보험사 연락처</string>
+    <!-- Crash -->
+    <string name="crash_report">%s 비정상 종료</string>
+    <string name="crash_message">앱이 비정상으로 종료되었습니다\n문제점을 보내주시면 큰 도움이 됩니다</string>
+    <!-- Log report -->
+    <string name="log_report">%s 로그</string>
+
+    <!-- VehicleDiary -->
+    <string name="diary_total">총액</string>
+    <string name="diary_fuel">주유</string>
+    <string name="diary_repair">정비</string>
+
+    <string name="which_card_vendor_keyword">카드</string>
+
+    <string name="diary_input_dialog_title">내역 입력</string>
+    <string name="diary_input_dialog_input">입력</string>
+    <string name="diary_edit_dialog_title">상세 내역</string>
+    <string name="diary_edit_dialog_edit">수정</string>
+    <string name="diary_edit_dialog_delete">삭제</string>
+    <string name="diary_dialog_cancel">취소</string>
+    <string name="diary_location">사용처</string>
+    <string name="diary_vendor">카드사</string>
+    <string name="diary_category">구분</string>
+    <string name="diary_expense">금액</string>
+    <string name="diary_date">사용날짜</string>
+    <string name="diary_location_hint">사용처를 입력하세요</string>
+    <string name="diary_vendor_hint">카드사를 입력하세요</string>
+    <string name="diary_category_hint">\'정비\' 또는 \'주유\'를 입력하세요</string>
+    <string name="diary_expense_hint">금액을 입력하세요</string>
+
+    <string name="repair_shop_keyword_1">블루핸즈</string>
+    <string name="repair_shop_keyword_2">오토큐</string>
+    <string name="repair_shop_keyword_3">스피드메이트</string>
+    <string name="repair_shop_keyword_4">오토오아시스</string>
+    <string name="repair_shop_keyword_5">티스테이션</string>
+    <string name="repair_shop_keyword_6">루마</string>
+    <string name="repair_shop_keyword_7">마스타</string>
+    <string name="repair_shop_keyword_8">카젠</string>
+    <string name="repair_shop_keyword_9">세덴자동차외형복원</string>
+    <string name="repair_shop_keyword_10">레디카</string>
+    <string name="repair_shop_keyword_11">티에스협력검사소</string>
+    <string name="repair_shop_keyword_12">투투정비서비스</string>
+    <string name="repair_shop_keyword_13">자동차10년타기전문정비센터</string>
+    <string name="repair_shop_keyword_14">케이디씨</string>
+    <string name="repair_shop_keyword_15">지알테크</string>
+    <string name="repair_shop_keyword_16">엔진마을</string>
+    <string name="repair_shop_keyword_17">케이티에이엠지</string>
+    <string name="repair_shop_keyword_18">에스카플러스</string>
+    <string name="repair_shop_keyword_19">프로미</string>
+    <string name="repair_shop_keyword_20">엔젤센터</string>
+    <string name="repair_shop_keyword_21">리멤버</string>
+    <string name="repair_shop_keyword_22">타이어프로</string>
+    <string name="repair_shop_keyword_23">자동차</string>
+    <string name="repair_shop_keyword_24">공업사</string>
+    <string name="repair_shop_keyword_25">카센터</string>
+    <string name="repair_shop_keyword_26">모터스</string>
+    <string name="repair_shop_keyword_27">Motor</string>
+    <string name="repair_shop_keyword_28">MOTOR</string>
+    <string name="repair_shop_keyword_29">motor</string>
+    <string name="repair_shop_keyword_30">정비</string>
+
+    <string name="gas_station_keyword_1">주유소</string>
+
+    <string name="card_vendor_name_1">삼성</string>
+    <string name="card_vendor_name_2">KB</string>
+    <string name="card_vendor_name_3">롯데</string>
+    <string name="card_vendor_name_4">BC</string>
+    <string name="card_vendor_name_5">현대</string>
+    <string name="card_vendor_name_6">우리</string>
+    <string name="card_vendor_name_7">신한</string>
+    <string name="card_vendor_name_8">하나</string>
+    <string name="card_vendor_name_9">씨티</string>
+    <string name="card_vendor_name_10">농협</string>
+    <string name="card_vendor_name_11">외환</string>
+    <string name="card_vendor_name_12">SC</string>
+    <string name="card_vendor_name_13">경남</string>
+    <string name="card_vendor_name_14">광주</string>
+    <string name="card_vendor_name_15">기업</string>
+    <string name="card_vendor_name_16">대구</string>
+    <string name="card_vendor_name_17">부산</string>
+    <string name="card_vendor_name_18">산업</string>
+    <string name="card_vendor_name_19">상호</string>
+    <string name="card_vendor_name_20">수협</string>
+    <string name="card_vendor_name_21">전북</string>
+    <string name="card_vendor_name_22">제주</string>
+
+    <string name="card_vendor_keyword_1">삼성</string>
+    <string name="card_vendor_keyword_2">KB</string>
+    <string name="card_vendor_keyword_3">국민</string>
+    <string name="card_vendor_keyword_4">KB국민</string>
+    <string name="card_vendor_keyword_5">롯데</string>
+    <string name="card_vendor_keyword_6">BC</string>
+    <string name="card_vendor_keyword_7">비씨</string>
+    <string name="card_vendor_keyword_8">현대</string>
+    <string name="card_vendor_keyword_9">우리</string>
+    <string name="card_vendor_keyword_10">신한</string>
+    <string name="card_vendor_keyword_11">신한체크</string>
+    <string name="card_vendor_keyword_12">하나</string>
+    <string name="card_vendor_keyword_13">하나SK</string>
+    <string name="card_vendor_keyword_14">씨티</string>
+    <string name="card_vendor_keyword_15">농협</string>
+    <string name="card_vendor_keyword_16">NH</string>
+    <string name="card_vendor_keyword_17">외환</string>
+    <string name="card_vendor_keyword_18">SC</string>
+    <string name="card_vendor_keyword_19">경남</string>
+    <string name="card_vendor_keyword_20">광주</string>
+    <string name="card_vendor_keyword_21">기업</string>
+    <string name="card_vendor_keyword_22">대구</string>
+    <string name="card_vendor_keyword_23">부산</string>
+    <string name="card_vendor_keyword_24">산업</string>
+    <string name="card_vendor_keyword_25">상호</string>
+    <string name="card_vendor_keyword_26">수협</string>
+    <string name="card_vendor_keyword_27">전북</string>
+    <string name="card_vendor_keyword_28">제주</string>
+
+
+    <!-- inno car -->
+    <string name="exit">종료</string>
+    <string name="innocar_exit">이노카를 종료하시겠습니까?</string>
+    <string name="my_album">마이앨범</string>
+    <string name="my_play_list">내 재생 목록</string>
+    <string name="top100">TOP 100</string>
+    <string name="today_music">오늘의 선곡</string>
+    <string name="olleh_navi">KT 내비</string>
+    <string name="geni_music">지니 뮤직</string>
+    <string name="call">전화</string>
+    <string name="smart_driving">스마트 드라이빙</string>
+    <string name="setting">설정</string>
+    <string name="sms">메시지</string>
+    <string name="camera">카메라</string>
+    <string name="navi">내비</string>
+    <string name="music">음악</string>
+    <string name="pick_navi">내비 앱 선택</string>
+    <string name="pick_call">전화 앱 선택</string>
+    <string name="pick_music">음악 앱 선택</string>
+    <string name="pick_camera">카메라 앱 선택</string>
+    <string name="pick_sms">메지시 앱 선택</string>
+    <string name="pick_any">앱 선택</string>
+    <string name="btn_retry">다시 시도</string>
+    <string name="notice">알림</string>
+    <string name="auth_failure_message">인증에 실패했습니다</string>
+    <string name="sign_in_failure_message">서버와 통신이 원활하지 않습니다</string>
+    <string name="sign_in_remove_message">usim 정보가 변경되었습니다. 데이터를 지우고 다시 가입해 주세요.</string>
+    <string name="withdraw_failure_message">탈퇴처리에 오류가 발생했습니다\n잠시 후 다시 시도해 주세요</string>
+    <string name="usim_failure_message">USIM 카드가 인식되지 않습니다\n카드 장착 후 재시작 해 주세요</string>
+    <string name="disclaimer">이용 약관</string>
+    <string name="disclaimer_individual_info_title">개인정보 수집 및 이용 동의 (필수)</string>
+    <string name="disclaimer_innocar_title">이노카 서비스 이용약관 (필수)</string>
+    <string name="disclaimer_location_based_title">위치기반 서비스 이용약관 (필수)</string>
+    <string name="disclaimer_third_party_title">제3자 제공 동의 (선택)</string>
+    <string name="disclaimer_item_agree">해당 약관에 동의합니다</string>
+    <string name="need_whole_disclaimer_agree">약관 동의 후 서비스를 이용하세요</string>
+    <string name="join_innocar">이노카 가입</string>
+    <string name="name">이름</string>
+    <string name="check_name">이름을 확인해 주세요</string>
+    <string name="sign_up_name_desc">사용자의 이름을 등록합니다</string>
+    <string name="email">정보수신 메일</string>
+    <string name="group_code">그룹코드 입력</string>
+    <string name="group_info">등록 그룹 정보</string>
+    <string name="sign_up_email_desc">본 메일을 통해 다양한 정보를 제공합니다</string>
+    <string name="check_email">정보수신 메일을 확인해 주세요</string>
+    <string name="birthday">생년월일</string>
+    <string name="check_birthday">생년월일을 확인해 주세요</string>
+    <string name="sign_up_birthday_desc">본인 생년월일에 맞는 서비스를 제공합니다</string>
+    <string name="sex">성별</string>
+    <string name="sign_up_sex_desc">성별에 따른 정보 및 서비스를 제공합니다</string>
+    <string name="region">지역</string>
+    <string name="group">그룹</string>
+    <string name="sign_up_region_desc">소속된 지역에 따른 정보 및 서비스를 제공합니다</string>
+    <string name="sign_up_group_desc">법인 또는 이벤트 참여 시 입력사항입니다</string>
+    <string name="please_input">입력해 주세요</string>
+    <string name="please_select">선택해 주세요</string>
+    <string name="please_group">그룹코드를 입력하세요</string>
+    <string name="mandatory_input">필수입력</string>
+    <string name="join">회원가입</string>
+    <string name="display_date_format">yyyy년 MM월 dd일</string>
+    <string name="guide_step1_title">메뉴 닫기</string>
+    <string name="guide_step1_desc">플로팅 메뉴의 플로팅 버튼을 터치하여 비활성화 할 수 있습니다</string>
+    <string name="guide_step1_head_desc1">플로팅 버튼을 터치\n해보세요</string>
+    <string name="guide_step1_head_desc2">플로팅 버튼을 다시 터치하면,\n메뉴를 활성화 할 수 있습니다</string>
+    <string name="guide_step2_title">아이콘 숨기기</string>
+    <string name="guide_step2_desc">플로팅 버튼을 더블 터치하여 화면 가장자리에 최소화 시킬 수 있습니다</string>
+    <string name="guide_step2_head_desc1">플로팅 버튼을 빠르게\n두 번 터치 해보세요</string>
+    <string name="guide_step2_head_desc2">플로팅 버튼을 다시 두 번 터치하면,\n이전 위치로 복귀 합니다</string>
+    <string name="guide_step3_title">플로팅 버튼 기능</string>
+    <string name="guide_step3_desc">플로팅 버튼을 통해 차량정보를 확인하고 상황별 간편기능을 실행할 수 있습니다</string>
+    <string name="guide_step4_title">메뉴 넘기기</string>
+    <string name="guide_step4_desc">하단 메뉴를 좌우로 당기면\n다른 기능들을 이용할 수 있습니다</string>
+    <string name="guide_step5_title">앱 설치 안내</string>
+    <string name="guide_step5_desc">원활한 서비스를 위해서는 지니와 올레 아이나비를 설치해야 합니다</string>
+    <string name="install_app">설치하기</string>
+    <string name="need_appwidget_permission">서비스 이용을 위해서는 위젯 사용 동의가 필요합니다</string>
+    <string name="need_pick_genie_music_appwidget">서비스 이용을 위해서는\n반드시 \'(지니 뮤직) 4x1\' 위젯을\n선택해야 합니다
+  </string>
+    <string name="tts_sms_message_head">"%s 님이 보낸 메시지 입니다.\n"</string>
+    <string name="default_reject_call_message">지금은 운전 중이오니 나중에 연락 드리겠습니다.</string>
+    <string name="head_no_value_exp">--</string>
+    <string name="eco_safe_point_unit">점</string>
+    <string name="login">로그인</string>
+    <string name="signing_in">로그인 중입니다\u2026</string>
+    <string name="isg_guide_title">Idle Stop &amp; Go (ISG) 기능이란?</string>
+    <string name="isg_guide">정차 시 시동이 자동으로 꺼지고, 출발할 때 다시 시동이 켜지는 기능입니다\n\n*차량에서 그림과 같은 버튼이 있는지 확인하세요
+  </string>
+    <string name="innocar_setting_item1">회원 정보</string>
+    <string name="innocar_setting_item2">스마트 기능</string>
+    <string name="innocar_setting_item3">이용 안내</string>
+    <string name="innocar_setting_item4">이용 약관</string>
+    <string name="innocar_setting_item5">공지사항</string>
+    <string name="innocar_setting_item6">문의사항</string>
+    <string name="innocar_setting_item7">자주 묻는 질문</string>
+    <string name="innocar_setting_item8">이벤트</string>
+    <string name="innocar_setting_item9">버전 정보</string>
+    <string name="innocar_setting_item10">일반 설정</string>
+    <string name="innocar_setting_item11">오픈소스 라이센스</string>
+    <string name="innocar_setting_item12">개인정보 처리방침</string>
+    <string name="innocar_setting_item13">유류비 설정</string>
+    <string name="innocar_setting_item14">앱 권한 설정</string>
+    <string name="innocar_setting_item15">푸시 설정</string>
+    <string name="push_setting">푸시수신 설정</string>
+    <string name="push_setting_desc">이노카에서 제공하는 푸시정보를 수신합니다</string>
+    <string name="logout">로그아웃</string>
+    <string name="logout_now">지금 로그아웃 하시겠습니까?</string>
+    <string name="account_withdrawal">회원 탈퇴</string>
+    <string name="auto_connect">자동 실행</string>
+    <string name="auto_predict">차량이상 감지</string>
+    <string name="bluetooth_connect">스마트진단기 검색 주기</string>
+    <string name="auto_connect_desc">스마트진단기(OBD) 연결을 감지하여 이노카를 자동으로 실행합니다</string>
+    <string name="auto_connect_float">처음 실행될 화면을 선택해주세요.</string>
+    <string name="driving_start_function">주행 시작 기능</string>
+    <string name="driving_start_function_desc">스마트진단기(OBD) 연결 후 차량의 시동을 감지하여 이노카의 기능들을 자동으로 실행합니다
+  </string>
+    <string name="play_genie_music">지니 최근 재생곡 실행</string>
+    <string name="launch_olleh_navi">올레 아이나비 실행</string>
+    <string name="launch_smart_driving">스마트 드라이빙 실행</string>
+    <string name="driving_function">주행 중 기능</string>
+    <string name="driving_function_desc">플로팅 버튼을 통해 전화 수신 시 필요한 편의기능을 제공합니다</string>
+    <string name="reject_call">플로팅 버튼으로 전화 수신 거절 메시지 보내기</string>
+    <string name="switch_speaker">플로팅 버튼으로 스피커폰 전환</string>
+    <string name="driving_finish_function">주행 종료 기능</string>
+    <string name="driving_finish_function_desc">스마트진단기(OBD) 연결 후 차량의 시동 OFF를 감지하여 이노카를 자동으로 종료합니다.
+  </string>
+    <string name="stop_genie_music">지니 재생곡 정지</string>
+    <string name="finish_olleh_navi">올레 아이나비 종료</string>
+    <string name="setting_guide_title">이노카를 통해\nKT의 컨텐츠를 쉽게!\n운전은 스마트 하게!\n즐기세요</string>
+    <string name="review_app_intro">앱 소개 다시보기</string>
+    <string name="review_function_guide">기능 가이드 다시보기</string>
+    <string name="disclaimer_individual_info_agree">개인 정보 수집동의 (%s)</string>
+    <string name="disclaimer_innocar_agree">서비스 이용 약관 (%s)</string>
+    <string name="disclaimer_location_based_agree">위치기반 서비스 이용 약관 (%s)</string>
+    <string name="disclaimer_third_party_agree">제3자 이용 동의 (%s)</string>
+    <string name="agreed">동의함</string>
+    <string name="not_agreed">동의안함</string>
+    <string name="current_version">현재 버전 : %s</string>
+    <string name="driving_speed">주행속도</string>
+    <string name="fuel_economy">평균연비</string>
+    <string name="harsh_accel">급가속</string>
+    <string name="harsh_brake">급감속</string>
+    <string name="plate_no_input_desc">* 차량번호를 등록하여 관련 서비스 및 이벤트에 참여할 수 있습니다</string>
+    <string name="odometer_input_desc">* 총주행거리(ODO)를 입력하여 정확한 차량관리 서비스를 제공받을 수 있습니다</string>
+    <string name="new_plate_no_hint">00가0000</string>
+    <string name="old_plate_no_hint">서울00가0000</string>
+    <string name="plate_no_validate_error">차량번호를 확인해 주세요</string>
+    <string name="odometer_validate_error">총주행거리(ODO)를 확인해 주세요</string>
+    <string name="alert">경고</string>
+    <string name="rooting_device_alert">개인정보 보호를 위해 Rooting 스마트폰은 이노카 App 사용이 제한되어 있습니다</string>
+    <string name="innocar_update">이노카 업데이트</string>
+    <string name="innocar_update_desc">새 버전이 있습니다\n업데이트 하시겠습니까?</string>
+    <string name="floatting_enabled">홈 화면에서 플로팅 버튼을 표시합니다</string>
+    <string name="floatting_disabled">홈 화면에서 플로팅 버튼을 표시하지 않습니다</string>
+    <string name="general_setting_floatting_enabled">플로팅 버튼 표시</string>
+    <string name="general_setting_mileage">차량번호 및 총 주행거리</string>
+    <string name="general_oil_price">유류비 설정 (원/L)</string>
+    <string name="general_setting_mileage_summary">차량번호 및 현재 총 주행거리를 수정할 수 있습니다</string>
+    <string name="general_setting_vehicle_number">차량 번호</string>
+    <string name="general_setting_vehicle_number_summary">차량 번호를 수정할 수 있습니다</string>
+    <string name="dialog_title_individual">개인정보 수집 및 이용동의</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="remote_diagnostics_title">차량원격진단</string>
+    <string name="btn_agree">동의</string>
+    <string name="btn_disagree">동의안함</string>
+    <string name="btn_event_submit">응모하기</string>
+
+    <string name="disclaimer_third_party_disagree_warning_title">제3자 제공 동의</string>
+    <string name="driving_style_title">운전습관</string>
+    <string name="repair_car_title">정비소 추천</string>
+    <string name="driving_style_title_eng">Driving Analysis</string>>
+    <string name="official_car_warning">일부 기능이 제한될 수 있는 차량입니다.</string>
+    <string name="official_car_guide">* 서비스 지원 차량은 www.innocar.co.kr 에서 확인 가능합니다</string>
+    <string name="dialog_consumalbes_obd_guide">진단기 연결한 이후에 사용해 주세요</string>
+    <string name="dialog_consumalbes_obd_guide_desc">소모품 관리 기능은 스마트 진단기와 연결한 이 후에 기능이 활성화 됩니다.\n\n* 일부
+    차량은 지원되지 않을 수 있습니다.
+  </string>
+
+    <string name="disclaimer_third_party_disagree_warning_desc">제3자 제공 동의 취소 시 이노카를 통해 제공하는 제3자의 다양한
+    혜택 및 이벤트를 받을 수 없게 됩니다.\n이를 이해하였으며, 불이익에 대한 이의 제기를 하지 않겠습니다.
+  </string>
+    <string name="car_broken_message">운전 중 차량파손이 의심되는 긴급상황이 발생하였습니다.</string>
+    <string name="official_obd_guide">* 스마트진단기(OBD) 구매는 1899-7295 에서 구매 가능합니다</string>
+    <string name="official_obd_warning">일부 서비스 제한이 있을 수 있습니다.</string>
+    <!--<string name="official_obd_warning">공식으로 지원되지 않는 OBD 장치입니다\n서비스에 제한이 있을 수 있습니다</string>-->
+    <string name="dont_show_7days">7일 동안 보지 않기</string>
+
+    // 계통이상
+    <string name="output_predict">출력 계통에 이상이 감지되었습니다.\n상세화면에서 확인해 보세요.</string>
+    <string name="inhalation_predict">흡기 계통에 이상이 감지되었습니다.\n상세화면에서 확인해 보세요.</string>
+    <string name="ignitioncontrol_predict">입력 계통에 이상이 감지되었습니다.\n상세화면에서 확인해 보세요.</string>
+    <string name="exhaust_predict">배기 계통에 이상이 감지되었습니다.\n상세화면에서 확인해 보세요.</string>
+    <string name="fuel_predict">연료 계통에 이상이 감지되었습니다.\n상세화면에서 확인해 보세요.</string>
+    <string name="battery_predict">배터리에 이상이 감지되었습니다.\n상세화면에서 확인해 보세요.</string>
+    <string name="coolant_predict">냉각수에 이상이 감지되었습니다.\n상세화면에서 확인해 보세요.</string>
+    <string name="dtc_predict">고장 코드 발생 위험이 있습니다.\n상세화면에서 확인해 보세요.</string>
+
+    <string name="output_predict_result">차량운행정지</string>
+    <string name="inhalation_predict_result">출력감소\n가속이상\n연비감소\n차량떨림</string>
+    <string name="ignitioncontrol_predict_result">가속이상\n실화</string>
+    <string name="exhaust_predict_result">검은매연\n엔진공회전\n연비감소</string>
+    <string name="fuel_predict_result">연비감소\n거친주행\n배기온도상승\n실화\n출력감소\n운행정지</string>
+    <string name="battery_predict_result">운전 중 차량이 멈추거나 시동이 걸리지 않을 수 있습니다.</string>
+    <string name="coolant_predict_result">운전 중 차량이 멈출 수 있습니다.</string>
+
+    <string name="output_predict_reason">엔진로드 이상</string>
+    <string name="inhalation_predict_reason">흡입공기량 이상\n흡기온도 이상</string>
+    <string name="ignitioncontrol_predict_reason">쓰로틀 개방 각도 이상</string>
+    <string name="exhaust_predict_reason">배기가스 산소 농도 이상</string>
+    <string name="fuel_predict_reason">단기 연료보정 이상\n장기 연료보정 이상\n연료 레일 압력 이상\n연료 압력 이상</string>
+    <string name="battery_predict_reason">배터리의 이상전압이 오랫동안 유지되고 있습니다.</string>
+    <string name="coolant_predict_reason">냉각수의 과열 상태가 오랫동안 유지되고 있습니다.</string>
+    <string name="auto_predict_desc">실시간으로 차량 데이터의 이상패턴을 감지하여 차량이상을 알려줍니다.</string>
+    <string name="bluetooth_connect_time_desc">스마트 진단기 검색 주기를 설정합니다.</string>
+    <string name="gcm_defaultSenderId">603244662068</string>
+
+    <string name="repair_car_recommendation">정비소 추천</string>
+    <string name="remove_lamp">고장코드(경고등) 제거</string>
+    <string name="group_description">가 맞으면 확인 버튼을 틀리면 취소를 선택해주세요.</string>
+    <string name="companyName">업체명 : </string>
+    <string name="corporateNumber">대표 번호 : </string>
+    <string name="repair">정비소</string>
+    <string name="repair_estimate">제휴정비소 견적문의</string>
+    <string name="estimate_desc">현재 서울/경기 지역 대상으로 서비스되고 있습니다. 추후 더 많은 지역으로 확대 예정입니다.</string>
+    <string name="repair_near">주변 정비소</string>
+    <string name="near_desc">현재 위치 근처의 정비소 정보를 제공합니다.</string>
+    <string name="plase_gps_on">GPS 기능을 켜고 다시 시도해주세요.</string>
+    <string name="permission_sms">1) <b>SMS</b> : 긴급호출, 메시지 앱 등록을 위해 접근함</string>
+    <string name="permission_positon">2) <b>위치</b> : 주행이력, 스마트 유류비 설정을 위해 접근함</string>
+    <string name="permission_sns">3) <b>저장공간</b> : 차량사진 등록, 랭킹화면 SNS 공유를 위해 접근함</string>
+    <string name="permission_call">4) <b>전화</b> : 긴급호출, 전화 앱 등록을 위해 접근함</string>
+    <string name="permission_address">5) <b>주소록</b> : 긴급호출을 위해 접근함</string>
+    <string name="permission_desc1">이노카 APP 이용시 필수 접근항목에 대한 상세안내 <b><font color="#FFA3E8F7" size="22">\"아래 필수 접근항목에 대한 승인\"</font></b>하셔야만 이노카 APP을 이용하실 수 있습니다.</string>
+    <string name="not_group_restart">재등록 가능한 그룹코드가 없습니다. 종료 후 다시 실행 부탁드립니다</string>
+    <string name="title_activity_app_permission">AppPermission</string>
+    <string name="allow">허용됨</string>
+    <string name="tmap_key">d96f311a-665f-3819-9873-979415f08633</string>
+
+</resources>

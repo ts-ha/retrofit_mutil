@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/now"
+        android:title="@string/consumables_detail_btn_now"/>
+   <!-- <item
+        android:id="@+id/recent"
+        android:title="@string/consumables_detail_btn_recent"/>-->
+    <item
+        android:id="@+id/last"
+        android:title="@string/consumables_detail_btn_last"/>
+</menu>

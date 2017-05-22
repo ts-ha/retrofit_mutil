@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.pokevian.app.smartfleet.MainActivity">
+
+    <item
+        android:id="@+id/action_withdraw"
+        android:showAsAction="never|withText"
+        android:icon="@drawable/btn_withdraw"
+        android:title="@string/sign_up_withdrawal"/>
+
+</menu>

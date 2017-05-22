@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+        <style name="AppTheme.Transparent"
+               parent="@android:style/Theme.Holo.Light.NoActionBar.TranslucentDecor"
+               tools:targetApi="kitkat">
+                <item name="android:windowBackground">@android:color/transparent</item>
+
+                <item name="android:colorBackgroundCacheHint">@null</item>
+                <item name="android:windowIsTranslucent">true</item>
+                <item name="android:windowAnimationStyle">@android:style/Animation</item>
+                <item name="android:windowNoTitle">true</item>
+                <item name="android:windowContentOverlay">@null</item>
+                <item name="android:backgroundDimEnabled">true</item>
+                <item name="android:windowTranslucentStatus">true</item>
+                <item name="android:statusBarColor">@android:color/transparent</item>
+
+                <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        </style>
+</resources>

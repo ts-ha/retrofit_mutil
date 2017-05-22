@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="1.0px"/>
+            <solid android:color="@color/consumption_index_background_disable"/>
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="1.0px"/>
+                <!-- <gradient android:startColor="#fc6962" android:endColor="#fc6962" android:angle="270.0" android:centerY="0.75" android:centerColor="#fc6962" /> -->
+                <solid android:color="@color/consumption_index_background_disable"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>
+

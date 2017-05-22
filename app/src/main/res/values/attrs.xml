@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleView">
+        <attr name="centerPointX" format="float"/>
+        <attr name="centerPointY" format="float"/>
+
+        <attr name="circleBaseColor" format="color"/>
+        <attr name="circleBaseStrokeWidth" format="float"/>
+        <attr name="radius" format="float"/>
+        <attr name="maxValue" format="float"/>
+        <attr name="EcoMaxValue" format="float"/>
+        <attr name="arcLoadingStrokeWidth" format="float"/>
+        <attr name="arcLoadingStartAngle" format="float"/>
+        <attr name="arcEcoStartAngle" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="SemiCircleView">
+        <attr name="borderColor" format="color"/>
+        <attr name="borderStrokeWidth" format="float"/>
+        <attr name="borderTextSize" format="integer"/>
+        <attr name="borderTextColor" format="color"/>
+        <attr name="arcColor" format="color"/>
+        <attr name="arcStrokeWidth" format="float"/>
+        <attr name="arcMaxValue" format="float"/>
+    </declare-styleable>
+
+</resources>

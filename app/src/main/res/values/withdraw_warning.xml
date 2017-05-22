@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="withdraw_warning">
+        <![CDATA[
+<p><b>회원을 탈퇴하시면 모든 정보가 삭제되며, 한번 삭제된 정보는 다시 복구할 수 없습니다.</b></p>
+<p>
+<b>삭제정보</b><br/>
+<small>
+-&nbsp;회원정보 (계정, 이름, 생년월일 등)<br/>
+-&nbsp;차량정보 (차량번호, 사진, 제조사 등)<br/>
+-&nbsp;주행경로 (주행정보, 위치데이터 등)<br/>
+-&nbsp;트립데이터 (연비, 연료소모량 등)<br/>
+-&nbsp;그 이외 제공되던 모든 정보<br/>
+</small>
+</p>
+        ]]>
+    </string>
+
+</resources>

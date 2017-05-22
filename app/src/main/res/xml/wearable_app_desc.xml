@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wearableApp package="com.kt.innocar">// 해당 앱의 패키지명
+  <versionCode>10101</versionCode>
+  <versionName>01.02.00</versionName>
+  <rawPathResId>wear</rawPathResId>
+</wearableApp>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <Preference
+      android:key="ers"
+      android:title="@string/general_setting_ers"
+      android:summary="@string/general_setting_ers_summary"/>
+
+  <CheckBoxPreference
+      android:key="overspeed_alarm_enabled"
+      android:defaultValue="true"
+      android:title="@string/general_setting_overspeed_alarm_enabled"
+      android:summaryOn="@string/overspeed_alarm_enabled"
+      android:summaryOff="@string/overspeed_alarm_disabled"/>
+
+  <CheckBoxPreference
+      android:key="location_enabled"
+      android:defaultValue="true"
+      android:title="@string/general_setting_location_enabled"
+      android:summaryOn="@string/location_enabled"
+      android:summaryOff="@string/location_disabled"/>
+
+  <CheckBoxPreference
+      android:key="floatting_enabled"
+      android:defaultValue="true"
+      android:title="@string/general_setting_floatting_enabled"
+      android:summaryOn="@string/floatting_enabled"
+      android:summaryOff="@string/floatting_disabled"/>
+
+  <Preference
+      android:key="mileage"
+      android:title="@string/general_setting_mileage"
+      android:summary="@string/general_setting_mileage_summary"/>
+
+  <!--<Preference-->
+      <!--android:key="oil_price"-->
+      <!--android:title="@string/general_oil_price"/>-->
+
+
+</PreferenceScreen>

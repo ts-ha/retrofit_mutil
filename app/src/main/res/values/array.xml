@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="menu_items">
+        <!--<item>@string/navigation_drawer_account_info</item>-->
+        <item>@string/navigation_drawer_vehicle_info</item>
+        <item>@string/navigation_drawer_obd_setting</item>
+
+        <item>@string/navigation_drawer_general_setting</item>
+        <!--<item>@string/navigation_drawer_repair</item>-->
+        <!--<item>@string/navigation_drawer_notice</item>-->
+        <!--<item>@string/navigation_drawer_disclaimer</item>-->
+        <!--<item>@string/navigation_drawer_logout</item>-->
+        <!--<item>@string/navigation_drawer_version</item>-->
+    </string-array>
+
+    <array name="menu_icons">
+        <!--<item>@drawable/ic_menu_account</item>-->
+        <item>@drawable/ic_menu_vehicle</item>
+        <item>@drawable/ic_menu_obd</item>
+
+        <item>@drawable/ic_menu_general_setting</item>
+        <!--<item>@drawable/ic_menu_repair</item>-->
+        <!--<item>@drawable/ic_menu_notice</item>-->
+        <!--<item>@drawable/ic_menu_disclaimer</item>-->
+        <!--<item>@drawable/ic_menu_logout</item>-->
+        <!--<item>@drawable/ic_menu_version</item>-->
+    </array>
+
+    <string-array name="trip_periods">
+        <item>@string/trip_period_day</item>
+        <item>@string/trip_period_week</item>
+        <item>@string/trip_period_half_month</item>
+        <item>@string/trip_period_month</item>
+        <item>@string/trip_period_all</item>
+    </string-array>
+
+    <array name="consumables_detail_engine_oil">
+        <item>@string/consumables_engine_oil</item>
+        <item>@string/consumables_detail_engine_oil</item>
+        <item>@string/consumables_detail_engine_oil_usage</item>
+        <item>@string/consumables_detail_engine_oil_check</item>
+        <item>@drawable/img_engineoil</item>
+    </array>
+    <array name="consumables_detail_engine_filter">
+        <item>@string/consumables_engine_filter</item>
+        <item>@string/consumables_detail_engine_filter</item>
+        <item>@string/consumables_detail_engine_filter_usage</item>
+        <item>@string/consumables_detail_engine_filter_check</item>
+        <item>@drawable/img_enginefilter</item>
+    </array>
+    <array name="consumables_detail_brake_pad">
+        <item>@string/consumables_brake_pad</item>
+        <item>@string/consumables_detail_brake_pad</item>
+        <item>@string/consumables_detail_brake_pad_usage</item>
+        <item>@string/consumables_detail_brake_pad_check</item>
+        <item>@drawable/img_brakepad</item>
+    </array>
+    <array name="consumables_detail_brake_oil">
+        <item>@string/consumables_brake_oil</item>
+        <item>@string/consumables_detail_brake_oil</item>
+        <item>@string/consumables_detail_brake_oil_usage</item>
+        <item>@string/consumables_detail_brake_oil_check</item>
+        <item>@drawable/img_brakeoil</item>
+    </array>
+    <array name="consumables_detail_aircon_filter">
+        <item>@string/consumables_aircon_filter</item>
+        <item>@string/consumables_detail_air_filter</item>
+        <item>@string/consumables_detail_air_filter_usage</item>
+        <item>@string/consumables_detail_air_filter_check</item>
+        <item>@drawable/img_aircon_filter</item>
+    </array>
+    <array name="consumables_detail_tires_exchange">
+        <item>@string/consumables_tires_exchange</item>
+        <item>@string/consumables_detail_tires_exchange</item>
+        <item>@string/consumables_detail_tires_usage</item>
+        <item>@string/consumables_detail_tires_check</item>
+        <item>@drawable/img_tire_position</item>
+    </array>
+
+    <string-array name="consumables_period">
+        <item>@string/consumables_detail_btn_now</item>
+        <item>@string/consumables_detail_btn_recent</item>
+        <item>@string/consumables_detail_btn_last</item>
+    </string-array>
+
+</resources>
